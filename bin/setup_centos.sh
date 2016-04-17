@@ -2,7 +2,7 @@
 
 yum update \
   && yum install openssl-devel bzip2-devel expat-devel \
-                 gdbm-devel readline-devel sqlite-devel -y
+                 gdbm-devel readline-devel sqlite-devel git -y
 
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
 yum install nodejs -y

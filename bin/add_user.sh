@@ -25,6 +25,7 @@ while IFS=, read username password; do
   fi
         ln -s /opt/data /home/$username
         ln -s /opt/notebooks /home/$username
+        chmod a+rwx /home/$username
 
 done <"$@"
 
