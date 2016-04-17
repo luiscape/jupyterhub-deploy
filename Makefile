@@ -1,5 +1,8 @@
 users:
-	bash bin/add_users.sh;
+	bash bin/add_user.sh;
 
 setup:
 	bash bin/setup.sh;
+
+run:
+	jupyterhub --no-ssl
